@@ -25,7 +25,7 @@ const Navbar = () => {
                         <div className="md:flex hidden">
                             <Link href={"/budgets"} className="btn ">Mes budgets</Link>
                             <Link href={""} className="btn mx-4">Tableau de bord</Link>
-                            <Link href={""} className="btn mx-4">Mes Transactions</Link>
+                            <Link href={"/transactions"} className="btn mx-4">Mes Transactions</Link>
                         </div>
                         <UserButton />
                     </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div className="md:hidden flex justify-center mt-2">
                         <Link href={"/budgets"} className="btn btn-sm">Mes budgets</Link>
                         <Link href={""} className="btn btn-sm mx-4">Tableau de bord</Link>
-                        <Link href={""} className="btn btn-sm mx-4">Mes Transactions</Link>
+                        <Link href={"/transactions"} className="btn btn-sm mx-4">Mes Transactions</Link>
                     </div>
                 </>) : (<div className="flex items-center justify-between">
                     <div className="flex text-2xl items-center font-bold">
